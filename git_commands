@@ -1,0 +1,31 @@
+# Create a Git branch
+git branch new-branch
+
+# Switch to a Git branch
+git checkout branch-name
+
+# Get the code changes from a branch
+git checkout branch-name
+
+# Push changes into main branch
+git push origin main
+
+# Get all the files that were changed in Git
+git diff --name-only
+
+# Get all the uncommitted files in Git
+git status --short
+
+# Commit changes into a branch in Git
+git add .
+git commit -m "Your commit message"
+git push -u origin your-branch
+
+# Merge a branch with the main branch in Git
+git checkout main
+git pull origin main
+git merge feature
+git push origin main
+
+
+
